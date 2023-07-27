@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <h1 th:text="${pageName}">title</h1>
+    <div class="btn_title">
+      <input type="submit" value="Login" class="open" />
+    </div>
+    <div class="container">
+      <form action="">
+        <div class="modal">
+          <h3>login</h3>
+          <div>
+            <input type="text" placeholder="Username" class="LESSERAFIM" />
+          </div>
+          <div>
+            <input type="password" placeholder="password" class="LESSERAFIM" />
+          </div>
+          <div class="warnings">
+            <p th:text="${notVal}"></p>
+          </div>
+          <div>
+            <input type="submit" value="login" class="loginBtn" />
+          </div>
+      </form>
+      </div>
+    </div>
+    <script src="login.js">
+    </script>
+  </body>
+</html>
