@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+.ht_left{
+    float: left;
+    display: inline-block;
+}
+#open{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#settings{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 16px;
+    height: 14px;
+}
+#h_t_right{
+    margin-left: 1170px;
+}
+.ht_right{
+    float: left;
+    display: inline-block;
+    flex-direction: column-reverse;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#heart{
+    width: 16px;
+    height: 14px;
+}
