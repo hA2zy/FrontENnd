@@ -1,0 +1,13 @@
+.Side_bar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 100%;
+  background-color: black; /* 투명한 배경 색상 */
+  overflow-y: auto;
+  box-shadow: -3px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.map{
+z-index: 10;
+}
