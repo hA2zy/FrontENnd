@@ -20,12 +20,15 @@ function App() {
 
   return (
     <>
-    <div
-      className="map"
-      style={{ width: "100wv", height: "100vh" }}
-      id="map"
-    ></div>
-    <Side/>
+      <div
+        className="map"
+        style={{
+          width: "100wv",
+          height: "100vh",
+        }}
+        id="map"
+      ></div>
+      <Side />
     </>
   );
 }
