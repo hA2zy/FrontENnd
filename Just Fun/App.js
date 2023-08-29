@@ -24,7 +24,7 @@ function App() {
         className="map"
         style={{
           width: "100wv",
-          height: "100vh",
+          height: "50vh",
         }}
         id="map"
       ></div>
