@@ -11,5 +11,3 @@ closeButton.addEventListener("click", () => {
     container.style.display = "none",
     openButton.style.display = "flex";
 })
-
-// sad
