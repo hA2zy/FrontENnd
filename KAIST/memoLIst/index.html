@@ -1,0 +1,39 @@
+<!-- 간단한 메모 리스트를 만들어 보세요. input와 리스트 하나를 만들고, input에 글을
+입력하고 버튼을 누르면 리스트에 입력한 내용이 추가되고, input의 내용은 사라지게
+해 보세요. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            <input type="text" placeholder="메모리스트" />
+            <button>등록</button>
+        </form>
+
+        <ul></ul>
+
+        <script>
+            const form = document.querySelector("form");
+            const input = document.querySelector("input");
+            const button = document.querySelector("button");
+            const ul = document.querySelector("ul");
+
+            form.addEventListener("submit", (event) => {
+                event.preventDefault();
+
+                if (input.value !== "") {
+                    const li = document.createElement("li");
+                    li.innerText = input.value;
+                    ul.appendChild(li);
+
+                    input.value = "";
+                }
+            });
+        </script>
+    </body>
+</html>

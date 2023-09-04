@@ -1,0 +1,50 @@
+<!-- 투두 리스트에 완료 상태를 표시할 수 있도록 해 보세요. 각 아이템에 체크박스를
+추가하고, 체크박스를 클릭했을 때 해당 아이템의 완료 상태를 변경하세요. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            <input type="text" placeholder="toDoList" />
+            <button>등록</button>
+        </form>
+
+        <ul></ul>
+
+        <script>
+            const form = document.querySelector("form");
+            const input = document.querySelector("input");
+            const ul = document.querySelector("ul");
+
+            form.addEventListener("submit", (event) => {
+                event.preventDefault();
+
+                if (input.value !== "") {
+                    const li = document.createElement("li");
+                    const checkbox = document.createElement("input");
+                    checkbox.className = "check";
+                    checkbox.type = "checkbox";
+                    li.innerText = input.value;
+                    li.appendChild(checkbox);
+                    ul.appendChild(li);
+
+                    input.value = "";
+                }
+            });
+
+            ul.addEventListener("click", (event) => {
+                if (event.target.classList.contains("check")) {
+                    const li = event.target.parentNode;
+                    li.style.textDecoration = event.target.checked
+                        ? "line-through"
+                        : "none";
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!-- 이전에 만들었던 타이머를 활용해서, 여러 타이머를 만들 수 있는 페이지를 만들어
+보세요. 클로저를 활용해 타이머 객체를 저장해 두고, 위의 방식을 이용해 이벤트가
+호출되었을떄 이를 일시정지하거나, 리셋하거나, 삭제하세요. 이전에 만들었던
+타이머가 없다면, 이 코드를 활용해도 좋아요. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+    </head>
+    <body>
+        <button id="addTimer">타이머 추가</button>
+        <script>
+            const timer = () => {
+                    let lastStarted = null;
+                    let totalTime = 0;
+                    return {
+                        start: () => {
+                            if (lastStarted) return;
+                            lastStarted = Date.now();
+                        },
+                        print: () => {
+                            const elapsed = lastStarted
+                                ? Date.now() - lastStarted + totalTime
+                                : totalTime;
+                            return (elapsed / 1000).toFixed(1) + "초 경과함";
+                        },
+                        pause: () => {
+                            if (!lastStarted) return;
+                            totalTime += Date.now() - lastStarted;
+                            lastStarted = null;
+                        },
+                        reset: () => {
+                            totalTime = 0;
+                            lastStarted = null;
+                        },
+                    };
+                };
+
+                const addTimer = () => {
+                    // 클로저 형태로 타이머 객체 저장
+                    const timerObject = timer();
+
+                    const timerContainer = document.createElement("div");
+
+                    const timerDisplay = document.createElement("span");
+                    timerDisplay.textContent = timerObject.print();
+
+                    const timerStart = document.createElement("button");
+                    timerStart.textContent = "시작";
+                    timerStart.addEventListener("click", () => {
+                        timerObject.start();
+                        timerDisplay.textContent = timerObject.print();
+                    });
+
+                    const timerPause = document.createElement("button");
+                    timerPause.textContent = "일시정지";
+                    timerPause.addEventListener("click", () => {
+                        timerObject.pause();
+                        timerDisplay.textContent = timerObject.print();
+                    });
+
+                    const timerReset = document.createElement("button");
+                    timerReset.textContent = "초기화";
+                    timerReset.addEventListener("click", () => {
+                        timerObject.reset();
+                        timerDisplay.textContent = timerObject.print();
+                    });
+
+                    const timerRemove = document.createElement("button");
+                    timerRemove.textContent = "삭제";
+                    timerRemove.addEventListener("click", () => {
+                        // 타이머 삭제
+                        document.body.removeChild(timerContainer);
+                    });
+
+                    document.body.appendChild(timerContainer);
+                    timerContainer.appendChild(timerDisplay);
+                    timerContainer.appendChild(timerStart);
+                    timerContainer.appendChild(timerPause);
+                    timerContainer.appendChild(timerReset);
+                    timerContainer.appendChild(timerRemove);
+                };
+
+                document.querySelector("#addTimer").addEventListener("click", addTimer);
+        </script>
+    </body>
+</html>
