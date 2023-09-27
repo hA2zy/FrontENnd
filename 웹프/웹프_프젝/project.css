@@ -1,0 +1,39 @@
+body {
+    background-color: #ff00f5;
+}
+
+.Logo {
+    display: inline-block;
+}
+
+.LogoImg:hover {
+    cursor: pointer;
+}
+
+.LogoImg {
+    width: 50px;
+}
+.InputDiv {
+    position: absolute;
+    right: 0;
+}
+
+.InputDiv > input {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px black solid;
+    width: 400px;
+    height: 25px;
+    position: relative;
+    bottom: 40px;
+    right: 10px;
+    background-color: #F964D9;
+}
+
+.InputDiv > input::placeholder {
+    color: black;
+}
+
+.InputDiv > input:focus {
+    outline: none;
+}
