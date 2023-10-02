@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-    const [todoList, setTodoList] = useState(null);
+    const [todoList, setTodoList] = useState([]);
 
     useEffect(() => {
         fetch("http://localhost:4000/api/todo")
@@ -12,13 +12,13 @@ function App() {
     return (
         <div className="App">
             <h1>TODO LIST</h1>
-            {todoList.map((todo => (
+            {todoList.map((todo) => (
                 <div key={todo.id}>
                     <div>{todo.id}</div>
                     <div>{todo.text}</div>
-                    <div>{todo.done}</div>
+                    <div>{todo.done ? 'Y' : 'N'}</div>
                 </div>
-            )))}
+            ))}
         </div>
     );
 }
