@@ -10,6 +10,7 @@ function App() {
     }, []);
 
     const onSubmitHandler = (e) => {
+        e.preventDefalult();
         const text = e.target.text.value;
         const done = e.target.done.value;
         fetch("htp://localhost:4000/api/todo", {
