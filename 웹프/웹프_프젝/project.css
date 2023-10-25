@@ -1,12 +1,35 @@
 body {
-    background-color: #ff00f5;
+  background-image: url("./img/닭발.jpg");
+  background-size: cover;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+li {
+  background-color: #b3b3b3;
+  border-radius: 25px;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 .Logo {
     display: inline-block;
 }
 
-.LogoImg:hover {
+.logo_name:hover {
+  cursor: pointer;
+}
+
+img:hover {
     cursor: pointer;
 }
 
@@ -27,7 +50,7 @@ body {
     position: relative;
     bottom: 40px;
     right: 10px;
-    background-color: #F964D9;
+    background-color: #b3b3b3;
 }
 
 .InputDiv > input::placeholder {
@@ -44,6 +67,12 @@ body {
   top: 25px;
 }
 
+.recipe {
+  position: relative;
+  bottom: 22.5px;
+  left: 30px;
+}
+
 ul{
   list-style-type: none;
 }
@@ -53,6 +82,7 @@ li {
   margin: 25px 0 25px 0;
   position: relative;
   left: 50px;
+  width: 1000px;
 }
 
 .recipe {
@@ -69,7 +99,7 @@ li {
 
 .user {
   position: relative;
-  top: 75px;
+  top: 65px;
   left: 300px;
 }
 
