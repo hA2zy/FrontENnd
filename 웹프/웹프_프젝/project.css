@@ -4,6 +4,20 @@ body {
   background-color: #b3b3b3;
 }
 
+#profile_img_div {
+  display: inline-block;
+  position: relative;
+  right: -1400px;
+  top: -10px;
+  border-radius: 50%; /* 이미지를 둥글게 만듭니다 */
+}
+
+#profile_img {
+  width: 32px;
+  height: 32px; /* 이미지의 높이와 너비 설정 */
+}
+
+
 h1:hover {
   cursor: pointer;
 }
@@ -38,8 +52,10 @@ img:hover {
     width: 50px;
 }
 .InputDiv {
-    position: absolute;
-    right: 0;
+    display: inline-block;
+    position: relative;
+    left: 1400px;
+    bottom: 30px;
 }
 
 .InputDiv > input {
@@ -48,9 +64,6 @@ img:hover {
     border-bottom: 1px black solid;
     width: 400px;
     height: 25px;
-    position: relative;
-    bottom: 40px;
-    right: 10px;
     background-color: #b3b3b3;
 }
 
