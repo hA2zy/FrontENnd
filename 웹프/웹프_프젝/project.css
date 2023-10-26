@@ -4,20 +4,6 @@ body {
   background-color: #b3b3b3;
 }
 
-#profile_img_div {
-  display: inline-block;
-  position: relative;
-  right: -1400px;
-  top: -10px;
-  border-radius: 50%; /* 이미지를 둥글게 만듭니다 */
-}
-
-#profile_img {
-  width: 32px;
-  height: 32px; /* 이미지의 높이와 너비 설정 */
-}
-
-
 h1:hover {
   cursor: pointer;
 }
@@ -37,7 +23,7 @@ li:hover {
 }
 
 .Logo {
-    display: inline-block;
+  display: inline-block;
 }
 
 .logo_name:hover {
@@ -45,34 +31,35 @@ li:hover {
 }
 
 img:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .LogoImg {
-    width: 50px;
+  width: 50px;
 }
 .InputDiv {
-    display: inline-block;
-    position: relative;
-    left: 1400px;
-    bottom: 30px;
+  position: absolute;
+  right: 0;
 }
 
 .InputDiv > input {
-    border-radius: 10px;
-    border: none;
-    border-bottom: 1px black solid;
-    width: 400px;
-    height: 25px;
-    background-color: #b3b3b3;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 1px black solid;
+  width: 400px;
+  height: 25px;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+  background-color: #b3b3b3;
 }
 
 .InputDiv > input::placeholder {
-    color: black;
+  color: black;
 }
 
 .InputDiv > input:focus {
-    outline: none;
+  outline: none;
 }
 
 .recipe_img {
@@ -87,7 +74,7 @@ img:hover {
   left: 30px;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
