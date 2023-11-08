@@ -4,7 +4,9 @@ import styled from 'styled-components';
 const App = () => {
   return (
     <Container>
-      <Header></Header>
+      <Header>
+        
+      </Header>
     </Container>
   )
 }
