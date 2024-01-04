@@ -127,16 +127,34 @@
 
 // b.start();
 
-interface Car {
-  color: string;
-  wheels: number;
-  start(): void;
-}
+// interface Car {
+//   color: string;
+//   wheels: number;
+//   start: void;
+// }
 
-interface Toy {
-  name: string;
-}
+// interface Toy {
+//   name: string;
+// }
 
-interface ToyCar extends Car, Toy {
-  price: number;
-}
+// interface ToyCar extends Car, Toy {
+//   price: number;
+// }
+
+// const toyCar: ToyCar = {
+//   color: "white",
+//   wheels: 4,
+//   start: function () {
+//     console
+
+//     log("Go!!");
+//   },
+//   name: "SuperCar",
+//   price: 10000,
+// };
+
+// console.log(toyCar);
+
+const n:null = null;
+
+const a:number = 123;
