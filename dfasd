@@ -1,0 +1,378 @@
+[33mcommit 8f2519ab1487c542e339e413d75a3ed00eb2728a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Fri Jan 5 13:57:56 2024 +0900
+
+    TS 연습 세팅
+
+[33mcommit 9daed5db246f85eae99e0927dc8d7c60cd27d885[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Jan 3 20:18:07 2024 +0900
+
+    잡
+
+[33mcommit 0888d222a67ca9b0e16ae12fdc74ea62e221209b[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sun Dec 31 18:57:47 2023 +0900
+
+    TS 기본 타입
+
+[33mcommit 1240c7d84095b6617146011873ba4648d390728c[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sun Dec 31 18:56:13 2023 +0900
+
+    TS 기본 타입
+
+[33mcommit d93caa745f0556df156f23137a6acb456e6f24b1[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 14 20:12:14 2023 +0900
+
+    axios API 연결 연습 완료 코드입니다.
+
+[33mcommit d861adfae171dbe46161900d6ad566a484e3c85d[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 14 20:10:17 2023 +0900
+
+    axios API 연결 연습 완료 코드입니다.
+
+[33mcommit 60ce26b0439e9fff6da0f7af450fd140e403239b[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 14 19:54:06 2023 +0900
+
+    fetch API연결 연습 완료 코드입니다.
+
+[33mcommit 7f2cffe65d84d7ccc7f18e19e4231ac6bb695bb6[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 14 19:36:06 2023 +0900
+
+    fetch API연결 코드 완료 입니다.
+
+[33mcommit 209c83127717eaff8f4c06bdf68c6956ab921d3d[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 14 17:33:01 2023 +0900
+
+    API fetch를 공부하고 있습니다. (server 개발 완료)
+
+[33mcommit 3ff2e549f0ecb6bc700c2ba80c0a709338becba8[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Nov 8 09:18:50 2023 +0900
+
+    삭제
+
+[33mcommit f9b713f197cde2e714d0d795efb7d925bf3829bd[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Nov 8 09:03:06 2023 +0900
+
+    TODO
+
+[33mcommit e1940eb4f36cbeb4febf93dbc7fc1fb4d5832187[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 7 22:42:48 2023 +0900
+
+    TODO로 각종 연습
+
+[33mcommit bd3c5736571334df656ab8dcaa2df76e7f498ec7[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 7 22:38:05 2023 +0900
+
+    React 각종 연습입니다.
+
+[33mcommit 1defec286a60d957a0d20e9fa1bd4b694172b26c[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 7 19:11:35 2023 +0900
+
+    시계만들기
+
+[33mcommit 94400ef53ae297fd295b45ad79a8c28a997693d7[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Nov 7 19:10:10 2023 +0900
+
+    useState, useEffect를 사용해서 시계만들기
+
+[33mcommit 3e1df6a2706024a9f8c3574dfeab51c357177157[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Fri Nov 3 16:31:41 2023 +0900
+
+    증말로 끝
+
+[33mcommit 3c82ca79939850569f9a63cc2e40bbee6a81915f[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Fri Nov 3 16:31:33 2023 +0900
+
+    프젝 끝
+
+[33mcommit 511c0fe34812f97dea8af779c261be5ee389106f[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:45:27 2023 +0900
+
+    web_project
+
+[33mcommit a1cf9df2a27ecfcb8a55541d750c5c8b86892bc5[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:45:21 2023 +0900
+
+    web_project
+
+[33mcommit 6d475aefba25c463b6728a0cc42553eedf2456a1[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:35:47 2023 +0900
+
+    web_project
+
+[33mcommit 9a6324572df47d20aae67cdc07b0a8960d5617eb[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:35:41 2023 +0900
+
+    web_project
+
+[33mcommit 7bf78b7f98ac0deb7cac760f61917e2c4189bb21[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:06:11 2023 +0900
+
+    web_project
+
+[33mcommit c07da88b925ddf3304fb21c68b643ed3219ab5d1[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:06:05 2023 +0900
+
+    web_project
+
+[33mcommit ff2ae766d1448fa963406a73229b9b6d6e4e72ec[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 26 11:05:50 2023 +0900
+
+    web_project
+
+[33mcommit 0821294ebd73272d6cfbd867ea1ca5e508fe4116[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Oct 25 19:52:30 2023 +0900
+
+    뭔지 모를 ts
+
+[33mcommit 70e8435fb89c39d93c9f50c421566c4c2a391893[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Oct 25 09:31:58 2023 +0900
+
+    web_project
+
+[33mcommit b2e24dbb824050bf1e26342c50ff04f855659ccb[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Oct 25 09:31:53 2023 +0900
+
+    web_project
+
+[33mcommit c2a02cef5adb50936bc2ab32ab961587c40dcf28[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Oct 25 09:31:49 2023 +0900
+
+    web_project
+
+[33mcommit 4c5855af5ac630731827beebb9f1f6ab19325935[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Oct 24 06:04:25 2023 +0900
+
+    project
+
+[33mcommit 34614bdf6af8bda7152ec9122d4409f1a9007528[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Oct 24 06:04:20 2023 +0900
+
+    project
+
+[33mcommit 1d0eb5d7abe21c7cc7b9af2bc9cc5c2dd8e65cd4[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Oct 24 06:04:14 2023 +0900
+
+    project
+
+[33mcommit 7df95751e38c335e5b9f086a0e2cad8959d66d9d[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Oct 24 06:04:08 2023 +0900
+
+    project
+
+[33mcommit 87bab015099b8d3cd8a52ff581c79372c0e99b69[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Mon Oct 9 21:25:44 2023 +0900
+
+    POST가 안되여
+
+[33mcommit 78d313666d2e83885de3a0eaaa5414cd6e90f11d[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Mon Oct 9 13:59:01 2023 +0900
+
+    몌ㅑrhdqn
+
+[33mcommit e31dc1105e2952650834b813db380164943505a5[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Oct 5 22:42:03 2023 +0900
+
+    API 공부 중입니다.
+
+[33mcommit d77a6bfb7b94c5e7116634e2c43942d2841846d5[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Mon Oct 2 22:09:36 2023 +0900
+
+    과연 니가 나를 이길 수 있다고 생각을 했냐ㅋ
+
+[33mcommit a78f61d74be7585fd71a6bf77ca767bfd42d8c7d[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sun Oct 1 18:50:21 2023 +0900
+
+    API를 공부 중인데 왜 실행을 안 하니 제발 실행 좀 해줘
+
+[33mcommit bbe1f01cf1ac816dd02db5fdd9cc95ed3b8a2854[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sat Sep 30 13:02:46 2023 +0900
+
+    API공부 중입니다!
+
+[33mcommit 8ec2dd7e1e31b5960c6c67ccf92bc8ec4f4eeb33[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Wed Sep 27 20:35:07 2023 +0900
+
+    웹프 프젝
+
+[33mcommit 4b678cc45d8ae9c69152d82f8f777e07fb395359[m
+Merge: af7bf2c e173990
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Tue Sep 19 16:50:29 2023 +0900
+
+    Merge remote-tracking branch 'origin/main' into main
+
+[33mcommit af7bf2cb7a22fd22d49d7b48a25ec8f364bc302a[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Sep 19 16:50:16 2023 +0900
+
+    frontend
+
+[33mcommit a0a0a9d5b9dd65e4aa6f9b27ae510668f6917527[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Fri Sep 15 14:59:28 2023 +0900
+
+    💄:: my-app
+
+[33mcommit e1739903cd75499c56fd69f1c8c82933d99d3ab2[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Sep 14 23:18:44 2023 +0900
+
+    과제
+
+[33mcommit 5a2069874af15fe0dde5ea75877201eb2988df84[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Tue Sep 5 22:56:58 2023 +0900
+
+    KAIST
+
+[33mcommit 76fa00cfbad8976332730003a0567119a29d60ab[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Mon Sep 4 23:10:38 2023 +0900
+
+    KAIST
+
+[33mcommit c76e16708bf185e0d5c958033d7c278c8a897c50[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sun Sep 3 21:32:32 2023 +0900
+
+    d
+
+[33mcommit 972cac6e9576b9b8b672d668b240d2dc34c592df[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sun Sep 3 21:32:21 2023 +0900
+
+    j
+
+[33mcommit 90be2621c064c08477d25787ad4bb380be54a92b[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sat Sep 2 21:54:34 2023 +0900
+
+    just
+
+[33mcommit 6d6d8f69324e26c97968f3e5324317c0da8ee86c[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Sat Sep 2 21:54:19 2023 +0900
+
+    just
+
+[33mcommit e49dffce8c975ac9150dbad8943125e0958a4292[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Aug 31 18:28:00 2023 +0900
+
+    KAIST
+
+[33mcommit 8c290c5195642b6def7313787fbd1f89266eece8[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Wed Aug 30 20:20:07 2023 +0900
+
+    KAIST
+
+[33mcommit 9e1de38f3be1d710a02f0b173d4c375de7edda39[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Tue Aug 29 21:14:56 2023 +0900
+
+    map
+
+[33mcommit d079a9bd3d7a01c5ae4a5a42c534c0fd2f203526[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Mon Aug 28 19:43:02 2023 +0900
+
+    map
+
+[33mcommit e5c258f1cecbbe7137a88fdc34ad1db5a4eec386[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Sun Aug 27 21:11:48 2023 +0900
+
+    react
+
+[33mcommit 30050a933d40e1d55e0c11c123b716fffdca3979[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:56:43 2023 +0900
+
+    draw-project
+
+[33mcommit 92a9a2566b4849236bacda11d0c1fcc7b1cdd70b[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:55:38 2023 +0900
+
+    Image-Slide(height)
+
+[33mcommit 6134ff6dada5e494adb32626f2cdabf84be973ec[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:55:14 2023 +0900
+
+    Image-Slide(width)
+
+[33mcommit 7d46fb28c931c47d5d4784347a81110b4d699080[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:54:46 2023 +0900
+
+    virtual-keyboard
+
+[33mcommit ce8e0394914aacc4d857bbd9e94e8f9fdd83a374[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:54:13 2023 +0900
+
+    4
+
+[33mcommit 541cf7a7e32add30e8692c8b3d0a5964940dca80[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:53:46 2023 +0900
+
+    3
+
+[33mcommit ce3004504f1e3fe55aa755c5ada85a223a148277[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:53:16 2023 +0900
+
+    2
+
+[33mcommit 57ec20b5bd08de3f6b67197d12b2045f491000e1[m
+Author: hA2zy <haz2y@dsm.hs.kr>
+Date:   Thu Jul 27 14:52:44 2023 +0900
+
+    1
+
+[33mcommit 5aa3b29dd8d4c44cfead883e6f679a0772069d14[m
+Author: hA2zy <128462388+hA2zy@users.noreply.github.com>
+Date:   Thu Jul 27 14:50:49 2023 +0900
+
+    Initial commit
